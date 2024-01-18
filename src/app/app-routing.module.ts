@@ -4,7 +4,7 @@ import { DoctorComponent } from './m-doctor/doctor/doctor.component';
 
 const routes: Routes = [
   {
-    path:'doctors',component:DoctorComponent,
+    path:'doctors1',component:DoctorComponent,
     loadChildren:()=>import('./m-doctor/m-doctor.module').then(a=>a.MDoctorModule)
   }
 ];
